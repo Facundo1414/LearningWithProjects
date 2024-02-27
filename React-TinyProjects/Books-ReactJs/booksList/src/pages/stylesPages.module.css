@@ -1,0 +1,63 @@
+.IndexBooksContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 2%;
+    width: 90%;
+    height: 100%;
+}
+
+.createFormContainer{
+    width: 400px;
+    margin: 0 ;
+
+}
+
+.createContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px 0;
+}
+
+.createTitle{
+    font-size: 16px;
+    text-align: left;
+    color: white;
+}
+.createInput{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btnStyle{
+    background-color: rgb(2, 84, 2);
+}
+
+
+.itemsContainerStyles{
+    display: flex;
+    gap: 20px;
+    color: white;
+    width: 50%;
+    height: 80%;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.itemsInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 45%;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.itemsInfoH3{
+    padding: 2%;
+    border-bottom: solid rgba(119, 197, 171, 0.215) ;
+}
